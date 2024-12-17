@@ -1,9 +1,8 @@
 import { DateTime } from "luxon";
-// import dotenv from 'dotenv';
-
+// require('dotenv').config();
 // dotenv.config({ path: './.env' });
-const API_KEY = 'a9046b9b7678922a43f03107f14dece5';
 // const API_KEY = process.env.API_KEY;
+const API_KEY = 'a9046b9b7678922a43f03107f14dece5';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/';
 
 const getWeatherData = (infoType, searchParams) => {
